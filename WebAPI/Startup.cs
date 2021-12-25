@@ -32,8 +32,8 @@ namespace WebAPI
         {
 
             services.AddControllers();
-            services.AddSingleton<IProductService, ProductManager>(); //IoC- eðer sen bu tipte bir baðýmlýlýk görürsen karþýlýðý budur(manager new i verir)
-            services.AddSingleton<IProductDal, EfProductDal>();
+            //services.AddSingleton<IProductService, ProductManager>(); //IoC- eðer sen bu tipte bir baðýmlýlýk görürsen karþýlýðý budur(manager new i verir)
+            //services.AddSingleton<IProductDal, EfProductDal>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPI", Version = "v1" });
