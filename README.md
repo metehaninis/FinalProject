@@ -1,0 +1,2 @@
+# FinalProject-Backend
+Proje, çok katmanlı mimariye ve SOLID ilkelerine uygun olarak C# dilinde geliştirildi. CRUD işlemleri Entity Framework kullanılarak gerçekleştirildi. Projede veritabanı olarak MSSQL Localdb kullanıldı. Bu sistem kimlik doğrulama ve yetkilendirmeyi içerir. Kullanıcılar yalnızca yetkili oldukları işlemleri gerçekleştirebilirler. JWT'nin uygulamaları; İşlem, Önbellek, Doğrulama ve Performans yönleri uygulandı. Doğrulama için Akıcı Doğrulama desteği, IoC için Autofac desteği eklendi.
